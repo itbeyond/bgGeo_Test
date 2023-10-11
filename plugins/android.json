@@ -1,0 +1,32 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-background-geolocation": {
+      "GOOGLE_API_VERSION": "20.+",
+      "HMS_LOCATION_VERSION": "6.9.0.300",
+      "OKHTTP_VERSION": "3.12.+",
+      "EVENTBUS_VERSION": "3.3.1",
+      "PACKAGE_NAME": "au.com.itbeyond.bgGeoTest"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "au.com.itbeyond.bgGeoTest"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "au.com.itbeyond.bgGeoTest"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "au.com.itbeyond.bgGeoTest"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-background-fetch": {
+      "PACKAGE_NAME": "au.com.itbeyond.bgGeoTest"
+    }
+  }
+}

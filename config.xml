@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1" defaultlocale="en-AU" id="au.com.itbeyond.bgGeoTest" ios-CFBundleVersion="1" version="1.0.0" windows-packageVersion="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps">
+    <name>bgGeo Test</name>
+    <vs:template-name>BlankJS</vs:template-name>
+    <content src="index.html" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml">
+            <meta-data android:name="com.transistorsoft.locationmanager.license_key" android:value="dfaf60c28d09bf821e7ecb258a28b1198a5636b447de1d334f96eb4eb343d564" />
+        </config-file>
+    </platform>
+    <preference name="AndroidLaunchMode" value="singleTask" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="ShowTitle" value="True" />
+    <preference name="BackupWebStorage" value="local" />
+    <preference name="SuppressesIncrementalRendering" value="True" />
+    <preference name="deployment-target" value="9" />
+    <preference name="AndroidXEnabled" value="true" />
+    <preference name="GradlePluginKotlinEnabled" value="true" />
+    <preference name="GradlePluginKotlinVersion" value="1.7.10" />
+    <preference name="android-minSdkVersion" value="24" />
+    <preference name="android-targetSdkVersion" value="33" />
+    <vs:toolsetVersion>12.0.0</vs:toolsetVersion>
+    <preference name="android-minSdkVersion" value="21" />
+    <plugin name="cordova-plugin-device" spec="^2.0.2" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <plugin name="cordova-plugin-background-fetch" spec="~5.6.0" />
+    <plugin name="cordova-background-geolocation" spec="~4.15.0" />
+</widget>

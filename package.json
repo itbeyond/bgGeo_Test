@@ -1,0 +1,36 @@
+{
+  "name": "au.com.itbeyond.bggeotest",
+  "version": "3.8.6",
+  "displayName": "bgGeo Test",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-background-fetch": {},
+      "cordova-background-geolocation": {}
+    }
+  },
+  "dependencies": {
+    "async": "^3.1.0",
+    "cordova-plugin-device": "^2.0.2",
+    "cordova-plugin-splashscreen": "^5.0.2",
+    "cordova-plugin-statusbar": "^2.4.2",
+    "del": "^5.1.0",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.4",
+    "jshint": "^2.10.2",
+    "ng-annotate": "^1.2.2",
+    "strip-debug": "^4.0.0",
+    "uglify-js": "^3.6.0"
+  },
+  "devDependencies": {
+    "@ionic/v1-toolkit": "2.0.10",
+    "cordova-android": "^12.0.1",
+    "cordova-background-geolocation": "file:../github/cordova-background-geolocation",
+    "cordova-plugin-background-fetch": "~7.2.1"
+  }
+}

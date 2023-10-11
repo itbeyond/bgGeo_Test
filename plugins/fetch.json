@@ -1,0 +1,47 @@
+{
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device@^2.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-splashscreen": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-splashscreen@^5.0.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar@^2.4.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-background-fetch": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-background-fetch@~7.2.1"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-background-geolocation": {
+    "source": {
+      "type": "local",
+      "path": "c:\\VSProjects\\bgGeo_Test\\node_modules\\cordova-background-geolocation"
+    },
+    "is_top_level": true,
+    "variables": {
+      "GOOGLE_API_VERSION": "20.+",
+      "HMS_LOCATION_VERSION": "6.9.0.300",
+      "OKHTTP_VERSION": "3.12.+",
+      "EVENTBUS_VERSION": "3.3.1"
+    }
+  }
+}
